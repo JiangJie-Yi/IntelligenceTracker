@@ -1,0 +1,12 @@
+{
+  "entryFile": "src/services/api.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/users/*.controller.ts"],
+  "spec": {
+    "outputDirectory": "src/services",
+    "specVersion": 3
+  },
+  "routes": {
+    "routesDir": "src/services"
+  }
+}
