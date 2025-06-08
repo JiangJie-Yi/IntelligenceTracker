@@ -133,6 +133,37 @@ export default function Dashboard(props: DashboardProps) {
           </Space>
         </Col>
       </Row>
+      <Row gutter={12}>
+        <Col span={2}>
+          <Select
+            placeholder="Year"
+            allowClear
+            // options={year.map((y) => ({ value: y, label: y.toString() }))}
+            dropdownStyle={{ textAlign: 'left' }}
+            style={{ width: '100%', padding: 0 }}
+          />
+        </Col>
+        <Col span={2}>
+          <Select
+            placeholder="Month"
+            allowClear
+            // options={month.map((m) => ({ value: m, label: m.toString() }))}
+            // suffixIcon={<span style={{ fontSize: '12px', color: '#666' }}>/ {month.length}</span>}
+            dropdownStyle={{ textAlign: 'left' }}
+            style={{ width: '100%', padding: 0 }}
+          />
+        </Col>
+        <Col span={2}>
+          <Select
+            placeholder="Day"
+            allowClear
+            // options={day.map((y) => ({ value: y, label: y.toString() }))}
+            // suffixIcon={<span style={{ fontSize: '12px', color: '#666' }}>/ {day.length}</span>}
+            dropdownStyle={{ textAlign: 'left' }}
+            style={{ width: '100%', padding: 0 }}
+          />
+        </Col>
+      </Row>
     </Layout>
   );
 }

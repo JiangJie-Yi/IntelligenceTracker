@@ -68,8 +68,8 @@ export default function App() {
     >
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/systemPage" element={<SystemPage />} />
+          <Route path="/IntelligenceTracker" element={<Login />} />
+          <Route path="/IntelligenceTracker/systemPage" element={<SystemPage />} />
           <Route path="/*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
