@@ -7,6 +7,9 @@ export default defineConfig({
   plugins: [react()],
   // base: '/',
   base: '/IntelligenceTracker/',
+  build: {
+    outDir: '.',
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
