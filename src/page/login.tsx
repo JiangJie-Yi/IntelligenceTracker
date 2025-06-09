@@ -30,7 +30,7 @@ export default function Login({ loginSuccess }: LoginProps) {
       if (loginSuccess?.(userData) !== false) {
         // login(userData);
         console.log('Login Success!');
-        navigate('/intelligenceTracker/systemPage');
+        navigate('/systemPage');
       }
     } else {
       alert('username or password Error');
